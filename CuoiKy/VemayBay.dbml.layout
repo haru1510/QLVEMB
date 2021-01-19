@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 12.25" name="VemayBay">
+  <DataContextMoniker Name="/VemayBayDataContext" />
+  <nestedChildShapes>
+    <classShape Id="18dac673-8865-49a6-a5c4-04d3848ea413" absoluteBounds="3.5, 1, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/VemayBayDataContext/CHUYENBAY" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5a9edadc-9b5e-4770-8a8e-91748f866e16" absoluteBounds="3.515, 1.46, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b1a87346-6cce-4977-b546-d6682e7202e5" absoluteBounds="6.25, 1.125, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/VemayBayDataContext/VEBAN" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ba3dfdc5-7f77-444b-b354-b04223ee7718" absoluteBounds="6.265, 1.585, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a2d52ccf-0d96-4d16-a7a4-0c11ef68290a" absoluteBounds="0.75, 1.625, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/VemayBayDataContext/DIEMCUOI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="49974fa8-9f64-497d-9156-62a31e95f41f" absoluteBounds="0.765, 2.085, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ffae75cd-3617-49f7-9faf-62611cc35a88" absoluteBounds="0.75, 4.125, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/VemayBayDataContext/DIEMDAU" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5ee173a6-7581-4796-8e6a-db66526b7964" absoluteBounds="0.765, 4.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1acb4d35-e032-4a87-929a-34d2f644bccd" absoluteBounds="3.5, 6.5, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/VemayBayDataContext/KHACHHANG" />
+      <nestedChildShapes>
+        <elementListCompartment Id="260f0351-a403-493a-bf82-55d6761f26a6" absoluteBounds="3.515, 6.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e0768256-20e5-4b56-a9bd-321100f095ad" absoluteBounds="3.5, 4.375, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/VemayBayDataContext/LOAIVE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a4dee2ef-be26-47a6-a46d-bb615fff3fd4" absoluteBounds="3.515, 4.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e2f66ae7-6430-4b83-8286-85b00e464e12" absoluteBounds="0.75, 6.125, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/VemayBayDataContext/MAYBAY" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3a60325b-d02d-42e2-9767-d3751e15769b" absoluteBounds="0.765, 6.585, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6bead8dc-c08a-4878-aba1-8888e5cd75ab" absoluteBounds="3.5, 9.25, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/VemayBayDataContext/NHANVIEN" />
+      <nestedChildShapes>
+        <elementListCompartment Id="04a2a01f-37d0-41e1-8339-65966d7e60ea" absoluteBounds="3.515, 9.71, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5fd62947-a262-4e01-8ed0-13af9f706230" absoluteBounds="6.75, 4.75, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/VemayBayDataContext/THONGBAO" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8b50c201-7a30-4522-a771-f9049ad9dcba" absoluteBounds="6.765, 5.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 2.20274983723958); (6.25 : 2.20274983723958)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/VemayBayDataContext/CHUYENBAY/CHUYENBAY_VEBAN" />
+      <nodes>
+        <classShapeMoniker Id="18dac673-8865-49a6-a5c4-04d3848ea413" />
+        <classShapeMoniker Id="b1a87346-6cce-4977-b546-d6682e7202e5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 2.22199625651042); (3.5 : 2.22199625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/VemayBayDataContext/DIEMCUOI/DIEMCUOI_CHUYENBAY" />
+      <nodes>
+        <classShapeMoniker Id="a2d52ccf-0d96-4d16-a7a4-0c11ef68290a" />
+        <classShapeMoniker Id="18dac673-8865-49a6-a5c4-04d3848ea413" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 4.12591745577925); (3.125 : 3.75091745577925); (3.125 : 3.9151025390625); (3.25357443490112 : 3.78652810416138 : JumpStart); (3.37142556509888 : 3.66867697396362 : JumpEnd); (3.5 : 3.5401025390625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VemayBayDataContext/DIEMDAU/DIEMDAU_CHUYENBAY" />
+      <nodes>
+        <classShapeMoniker Id="ffae75cd-3617-49f7-9faf-62611cc35a88" />
+        <classShapeMoniker Id="18dac673-8865-49a6-a5c4-04d3848ea413" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 7.48159912109375); (6.46875 : 7.48159912109375); (6.46875 : 3.28049967447917)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/VemayBayDataContext/KHACHHANG/KHACHHANG_VEBAN" />
+      <nodes>
+        <classShapeMoniker Id="1acb4d35-e032-4a87-929a-34d2f644bccd" />
+        <classShapeMoniker Id="b1a87346-6cce-4977-b546-d6682e7202e5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 4.53125); (6.3281225 : 4.53125); (6.3281225 : 3.28049967447917)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/VemayBayDataContext/LOAIVE/LOAIVE_VEBAN" />
+      <nodes>
+        <classShapeMoniker Id="e0768256-20e5-4b56-a9bd-321100f095ad" />
+        <classShapeMoniker Id="b1a87346-6cce-4977-b546-d6682e7202e5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 6.1862992741887); (3.3125 : 5.6237992741887); (3.3125 : 2.88104939778646); (3.5 : 2.88104939778646)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/VemayBayDataContext/MAYBAY/MAYBAY_CHUYENBAY" />
+      <nodes>
+        <classShapeMoniker Id="e2f66ae7-6430-4b83-8286-85b00e464e12" />
+        <classShapeMoniker Id="18dac673-8865-49a6-a5c4-04d3848ea413" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 10.6162019856771); (6.6093775 : 10.6162019856771); (6.6093775 : 3.28049967447917)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/VemayBayDataContext/NHANVIEN/NHANVIEN_VEBAN" />
+      <nodes>
+        <classShapeMoniker Id="6bead8dc-c08a-4878-aba1-8888e5cd75ab" />
+        <classShapeMoniker Id="b1a87346-6cce-4977-b546-d6682e7202e5" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,8 @@
+﻿Mã vé: 14
+ Tên máy bay: NNHP01 Airlines
+ Họ và tên khách hàng: Phạn Ngọc Trâm
+ Loại ghế: Hạng Thường
+ Nơi xuất phát: Hồ Chí Minh
+ Nơi đến: Đà Nẵng
+ Ngày đi: 4/12/2020
+ Giờ bay: 4:00
